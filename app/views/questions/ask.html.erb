@@ -1,0 +1,7 @@
+<h1>hello there, do you have a guestion?<h1>
+
+<!-- app/views/pages/contact.html.erb -->
+<form action="/answer">
+  <input type="text" name="question" placeholder="ask your question?" value="<%= params[:question] %>">
+  <input type="submit">
+</form>
